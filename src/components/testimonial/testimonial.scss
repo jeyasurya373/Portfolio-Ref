@@ -1,0 +1,57 @@
+@import "../../global.scss";
+
+.testimonial{
+    background-color: white;
+    display:flex;
+    
+
+    .left{
+        flex:2;
+        overflow:hidden;
+
+        
+        h1{
+            padding:10px;
+            padding-left: 10px;
+            color: $mainColor;
+        }
+       
+
+        img{
+            display: flex;
+            padding: 0px;
+            padding-left:100px;
+            padding-bottom: 10px;
+            width:65%;
+            overflow: hidden;
+        }
+        
+    }
+    
+    .right{
+        flex: 3;
+        
+       
+
+        p{
+           
+            color:$mainColor;
+            display: flex;
+            padding-top: 170px;
+            padding-right: 10px;
+            align-items: center;
+            font-size:20px;
+            word-spacing: 5px;
+            line-height: 28pt;
+            font-weight: 600;
+           
+
+            
+            
+
+            
+        }
+    }
+}
+
+

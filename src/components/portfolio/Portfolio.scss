@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.portfolio{
+    background-color: white;
+    display: flex;
+
+    
+    .left{
+        flex:3;
+        background-color:white;
+        
+        h1{
+           padding: 10px;
+            color: $mainColor;
+            
+        }
+
+        p{
+            display: flex;
+            padding: 100px;
+            font-size: 20px;
+            word-spacing: 5px;
+            line-height: 20pt;
+            font-weight: 500;
+            align-content: center;
+            justify-content: column;
+            justify-items: center;
+
+            
+        }
+        
+        
+    }
+
+    .right{
+        flex:2;
+        background-color: white;
+
+        img{
+           
+            
+            width:70%;
+            
+        }
+        
+        
+    }
+}
